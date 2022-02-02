@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763668314332",
+    "firebase_url": "https://formation-flash-firestor-da775-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "formation-flash-firestor-da775",
+    "storage_bucket": "formation-flash-firestor-da775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763668314332:android:d067bc0564dc39f91d5c19",
+        "android_client_info": {
+          "package_name": "com.flash.formationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763668314332-2s15f4b4bomcqtmsid0jop2eh22htjv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDW4TCD-U8iE-hjf3zFWwin26_4BObcl8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763668314332-2s15f4b4bomcqtmsid0jop2eh22htjv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
