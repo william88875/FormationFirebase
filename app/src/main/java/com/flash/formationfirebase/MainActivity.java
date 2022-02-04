@@ -31,9 +31,15 @@ public class MainActivity extends AppCompatActivity {
        // utilisateurDAOImplement.getListUtilisateurs();
       //  utilisateurDAOImplement.deleteUtilisateur("ANW7gzTpllD2vskoMIIR");
 
-        Recette recette = new Recette("Libelle 1","Description 1","0u0CJoaJshKFtkPTvdie");
+        Recette recette = new Recette("Libelle 11","Description 11","0u0CJoaJshKFtkPTvdie");
 
         RecetteDAOImplement recetteDAOImplement = dao.getRecetteDAOImplement();
+        recetteDAOImplement.addRecette(recette);
+
+        recette.setLibelle("Libelle 22");
+        recette.setDescription("description 22");
+        recette.setUtilisateurId("lasjhdiuhasd");
+
         recetteDAOImplement.addRecette(recette);
     }
 }
